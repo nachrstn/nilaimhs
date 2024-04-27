@@ -62,7 +62,7 @@
                             <form action="/search" method="GET" class="row">
                                 <div class="col-auto">
                                     <label for="keyword" class="visually-hidden">Cari NIM atau nama</label>
-                                    <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Cari NIM atau nama .." value="{{ $keyword }}">
+                                    <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Cari NIM atau nama .." value="{{ $keyword??"" }}">
                                 </div>
                                 <div class="col-auto">
                                     <button type="submit" class="btn btn-primary mb-3">Cari</button>
