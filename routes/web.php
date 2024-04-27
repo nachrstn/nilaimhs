@@ -7,3 +7,4 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', [MahasiswaController::class, 'index']);
+Route::get('/search', [MahasiswaController::class, 'search']);
